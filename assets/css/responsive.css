@@ -1,0 +1,322 @@
+
+
+
+/*=================== Basic Responsive Start ======================*/
+@media only screen and (max-width: 1024px){
+    
+
+/*=================== mobile-menu ======================*/
+
+
+}
+
+/*=================== Basic Responsive end ======================*/
+
+
+
+
+/*=================== I Phone 6/7/8 Responsive start ======================*/
+
+@media (max-width: 414px) {
+
+} 
+/*=================== I Phone 5/se Responsive End ======================*/
+
+@media (max-width: 400px) {
+
+}
+
+
+/*=================== I Phone 5/se Responsive start ======================*/
+/*=================== Wide I Phone 5/se Responsive End ======================*/
+
+@media (max-width: 568px) and (min-width: 320px){
+}
+
+
+/*=================== I Phone 5/se Responsive start ======================*/
+
+@media (max-width: 320px) {
+
+
+} 
+/*=================== I Phone 5/se Responsive End ======================*/
+/* Lager Screen*/
+@media (max-width: 1199px) {
+
+}@media (min-width: 1024px) {
+
+}
+
+
+@media only screen and (max-width: 540px){
+}
+
+
+/*=================================Sur Start =======================*/  
+@media (max-width: 767px) and (min-width: 540px) {
+
+
+}
+
+/*=================================Sur Start =======================*/  
+
+
+/*=================================I Pad Start =======================*/  
+@media (max-width: 767px) and (min-width: 1024px) {
+
+
+
+}
+
+/*=================================I Pad end =======================*/  
+/*ipad Pro*/
+
+
+
+
+/*=================== Galaxy S5 Responsive Start ======================*/
+
+@media (max-width: 640px) {
+
+  .single-hero h1 {
+    font-size: 30px;
+  }
+  .single-hero h1 span {
+  }
+  .single-hero h2 {
+    font-size: 20px;
+  }
+
+}
+/*=================== Galaxy S5 Responsive End ======================*/
+
+/*=================== pixel Responsive start ======================*/
+@media (max-width: 990px) {
+    
+.menu.mobile-menu {
+  position: fixed;
+  left: -400px;
+  top: 0;
+  background-color: #fff;
+  z-index: 10000;
+  height: 100%;
+  width: 300px;
+  padding: 40px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.menu-close-trigger {
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.menu-close-trigger:hover {
+  color: var(--primery_color);
+}
+.menu.mobile-menu ul li { 
+  width: 100%;
+}
+.menu.mobile-menu ul li a {
+  width: 100%;
+}
+.menu-trigger {
+  float: right;
+  width: 40px;
+  height: 40px !important;
+  cursor: pointer;
+  margin: 13px;
+  display: block !important;
+}
+.menu-trigger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primery_color);
+  margin: 10px 0;
+}
+.menu.mobile-menu.active {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+  transition: 0.4s;
+}
+.menu-close-trigger {
+  display: block !important;
+}
+
+.menu-overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #ddd;
+  z-index: 1000;
+  opacity: 0.1;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s;
+}
+.menu-overlay.active {
+  display: block;
+  visibility: visible;
+  opacity: 0.2;
+  transition: 0.4s;
+}
+.boxed-btn {
+  font-size: 13px;
+}
+.section-padding {
+  padding: 25px !important;
+}
+.footer-section {
+  padding: 100px 25px;
+}
+.footer-widget {
+  margin-top: 25px;
+  text-align: center;
+}
+.f-widget-title {
+  display: inline-block;
+}
+.single-hero.d-table.style-1:hover {
+	transform: none;
+}
+.why-choose h2 {
+  font-size: 25px;
+}
+.why-choose::after {
+  width: 100%;
+}
+
+.why-choose.right .col-lg-6 {
+  padding-left: 0;
+}
+
+.single-scope {
+  width: 48%;
+}
+
+.pro-in-title h2 {
+  font-size: 20px;
+}
+.pro-in-title h4 {
+  font-size: 17px;
+}
+.pro-in-cap span {
+  font-size: 14px;
+}
+.single-hero img {
+ 
+  margin: 0 auto; 
+  /*! height: 100px; */
+  width: 400px !important;
+  margin-top: 24px;
+}
+
+
+#myHeader  .text-right {
+  text-align: center;
+}
+#myHeader .text-right a {
+  padding: ;
+  margin: 10px 0;
+  font-size: 12px;
+}
+#myHeader .text-right span {
+  font-size: 10px;
+}
+.sticky .top-header {
+  display: none;
+}
+.we-do-absulate {
+}
+.single-we-do {
+  margin-bottom: 20px;
+}
+.footer-cta h3 {
+  font-size: 12px;
+}
+.footer-cta {
+  padding: 10px;
+  margin-top: -128px;
+}
+.footer-cta .text-right {
+  text-align: center;
+}
+.hero-slider-title h4 {
+	font-size: 19px;
+}
+.partner {
+	padding-bottom: 52px !important;
+}
+
+}
+/*=================== pixel Responsive start ======================*/
+
+/*=================== pixel 2 Responsive start ======================*/
+@media (max-width: 823px) {
+
+
+  
+}
+/*=================== pixel Responsive start ======================*/
+
+/*=================== pixel 2 Responsive start ======================*/
+/*@media (max-width: 823px) (min-width: 1024px) {*/
+  @media (max-width: 823px) and (min-width: 411px) {
+
+  
+}
+/*=================== pixel Responsive start ======================*/
+
+/*=================== I Pad Responsive Start ======================*/
+@media (max-width: 767px) {
+ 
+}
+/*=================== I Pad Responsive End ======================*/
+
+
+@media (max-width: 720px) and (min-width: 540px) {
+
+}
+/*=================== Wide I Pad Pro Responsive Start ======================*/
+@media (max-width: 1200px) and (min-width: 1025px) {
+ 
+}
+/*=================== Wide I Pad Pro Responsive End ======================*/
+
+
+@media (max-width: 767px) and (min-width: 701px) {
+
+}
+
+@media (max-width: 1366px) and (min-width: 1024px) {
+
+}
+
+/*=================== Wide I Pad  Responsive start ======================*/
+@media (max-width: 1024px) and (min-width: 768px) {
+
+}
+
+/*I pad*/
+@media (max-width: 768px) {
+
+}
+/*I pad*/
+@media (max-width: 1024px) and (min-width: 701px) {
+
+}
+
+/*=================== Wide I Pad  Responsive End ======================*/
+@media (max-width: 1024px) {
+
+  
+}
+
+@media (max-width: 991px) {
+
+} 
